@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body>
+  
+<input type="text" id="out">
+<button onclick="fun()">Send</button>
+<script>
+
+function fun() {
+
+  var srt = document.getElementById('out').value;
+  window.opener.document.body.innerHTML = 'Test';
+}
+
+</script>
+</body>
+</html>
